@@ -238,7 +238,7 @@ namespace LR_MEGA
 
                 // 判斷使用者輸入是否為n 是即跳出迴圈
                 Console.WriteLine("輸入n離開或按Enter繼續");
-                if (Console.ReadLine() == "n")
+                if (Console.ReadKey().Key == ConsoleKey.N)
                 {
                     break;
                 }
